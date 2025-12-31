@@ -3,8 +3,8 @@ const Footer = () => {
   return (
     <>
         {/*Top Container */}
-        <div className=" px-4 py-[3.5rem] mx-28 font-display flex flex-row-reverse justify-around bg-white text-right items-center box-border w-[1120px] h-[257px]">
-          <div className="flex flex-col pl-[5rem] grow w-[670px] h-[145px]">
+        <div className="py-14 px-80 flex flex-row-reverse text-right justify-between">
+          <div className="flex flex-col">
             <div className="mb-[0.8rem] font-normal text-[#212529] text-lg/[1.5]">
               بازار، نخستین و پرمخاطب‌ترین فروشگاه ایرانی برنامه‌ها و بازی‌های
               موبایلی دنیای اندروید
@@ -17,7 +17,7 @@ const Footer = () => {
               پاک کند.
             </p>
           </div>
-          <div className="p-[1rem] text-nowrap border border-[#e5e7f0] rounded-lg items-center font-normal w-[420px] h-[140px] flex flex-row-reverse justify-between">
+          <div className="text-nowrap border border-[#e5e7f0] flex flex-row-reverse justify-between pl-27">
             <img
               src="./src/assets/images/footer-download.png"
               alt="CaffeBazar"
@@ -32,14 +32,14 @@ const Footer = () => {
                 <a
                   href="https://cafebazaar.ir/install?manual=1&autostart"
                   download
-                  className="text-sm text-[#0ea960] cursor-pointer px-[1rem] border-[1px] border-gray-400 ml-[0.6rem]"
+                  className="text-sm text-[#0ea960] cursor-pointer px-[1rem] border-[1px] border-gray-200 ml-[0.6rem] hover:text-white hover:bg-[#0ea960]"
                 >
                   دانلود نسخه اندروید
                 </a>
                 <a
                   href="https://cafebazaar.ir/download/bazaar-tv.apk"
                   download
-                  className="text-sm text-[#0ea960] cursor-pointer px-[1rem] border-[1px] border-gray-400"
+                  className="text-sm text-[#0ea960] cursor-pointer px-[1rem] border-[1px] border-gray-200 hover:text-white hover:bg-[#0ea960]"
                 >
                   نسخه اندروید TV
                 </a>
@@ -48,7 +48,7 @@ const Footer = () => {
           </div>
         </div>
         {/* link container */}
-        <div className="bg-white font-yekan text-right px-[1rem] py-[3.5rem] mx-[7rem] flex flex-row-reverse flex-wrap justify-between">
+        <div className="bg-white font-yekan text-right px-[1rem] py-[3.5rem] mx-80 flex flex-row-reverse flex-wrap justify-between border-y-1 border-gray-200">
           <div className="text-sm/[2.8] text-[#37474f] font-normal block flex flex-col">
             <a title="نصب بازار" href="" className="cursor-pointer text-[#37474f] hover:text-[#0ea960]">
               نصب بازار
@@ -118,7 +118,7 @@ const Footer = () => {
           </div>
         </div>
         {/* Copyright Container */}
-        <div className="px-[15px] py-[16px] flex flex-row-reverse mx-[68px]">
+        <div className="px-[15px] py-[16px] flex flex-row-reverse mx-80">
           <div className="text-xs">
             تمامی حقوق این سایت متعلق به شرکت آوای همراه هوشمند هزاردستان (فروشگاه برنامه‌های موبایلی اندروید بازار) است.
           </div>
